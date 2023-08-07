@@ -7,7 +7,7 @@ inputField.value = " ";
 
 submitButton.addEventListener("click", function () { submit(); });
 document.addEventListener("keydown", function (e) {
-    if (e.code === 'Enter') {
+    if (e.code === 'Enter' || e.key === 13 || e.key === 'Enter' || e.code === 'NumpadEnter') {       
         e.preventDefault();
         submit();
     }

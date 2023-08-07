@@ -18,9 +18,10 @@ body {
     padding: 1.1em;
     border-radius: 0 10px 100px 0;
     background-color: #4717F6;
-    width: 28vw;
+    width: 35vw;
     font-size: 1.5em;
-}   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 .desc {
     position: relative;
@@ -93,6 +94,11 @@ textarea {
     cursor: pointer;
 }
 
+button {
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
 .return-field {
     position: relative;
     flex: auto;
@@ -145,6 +151,7 @@ textarea {
     width: 50vw;
     font-size: 1.1em;
     border-radius: 100px 0 0 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .warning {
@@ -155,3 +162,48 @@ textarea {
     margin-top: 1.1em;
 }
 
+@media (max-width: 576px) { 
+
+    .title {
+        padding: .5em;
+        width: 85vw;
+        font-size: 1.9em;
+
+    }   
+
+    .desc {
+        padding: 10px 2px;
+        top: 1%;
+        width: 75vw;
+    }
+    
+    .wrapper {
+        display: block;
+        text-align: center;
+    }
+
+    .input-field {
+        top: 3%;
+    }
+
+    textarea {
+        height: 20vh;
+    }
+
+    .btn button {   
+        width: 95%;
+    }
+
+    .return-field {
+        width: 92%; 
+        top: 9%;
+        left: 4%;
+        height: 35%;  
+    }
+
+    
+    .footer {
+        width: 85vw;
+    }
+
+ }
