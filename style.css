@@ -1,0 +1,157 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-color: #0e0B16;
+    color: #E7DFDD;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+}
+
+.title {
+    position: relative;
+    display: inline-block;
+    padding: 1.1em;
+    border-radius: 0 10px 100px 0;
+    background-color: #4717F6;
+    width: 28vw;
+    font-size: 1.5em;
+}   
+
+.desc {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A239CA;  
+    width: 95vw;
+    border-radius: 0px 20px 100px 0;
+    top: 2%;
+    right: 0;
+    padding: 10px 5px;
+}
+
+.desc-text {
+    width: 80%;  
+    opacity: 70%;
+    padding: 10px 5px;
+    border-radius:  0px 20px 100px 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0%;
+    width: 95vw;
+    height: 75vh;
+}
+
+.input-field {
+    position: relative;
+    flex: auto;
+    padding-left: 1.2em;
+    max-width: 600px;
+}
+
+textarea {
+    position: relative;
+    background-color: transparent;
+    resize: none;
+    width: 98%;
+    height: 35vh;
+    border-radius: 5px;
+    color: #E7DFDD;
+    padding-top: 1.2em;
+    font-size: 1.4em;
+}
+
+.btn {
+    position: relative;
+    top: 2%;
+    text-align: center;
+    
+}
+
+.btn button {   
+    background-color: transparent;
+    color: #E7DFDD;
+    padding: 1.3em;
+    border-radius: 10px;
+    transition: .2s;
+    width: 100%;
+}
+
+.btn button:hover {
+    background-color: #A239CA;
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+.return-field {
+    position: relative;
+    flex: auto;
+    height: 75%;
+    border: 1px solid #E7DFDD;;
+    border-radius: 5px;
+    padding: 1.2em 1.2em 0 1.2em;  
+    max-width: 600px;
+    overflow: auto;
+    
+}
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 7px;
+    }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: transparent; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #4717F6; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2b04b8; 
+  }
+
+.return-field div {
+    position: relative;
+    background-color:  #A239CA;
+    border-radius: 20px;
+    padding: 1.1em;
+    margin-bottom: 1.2em;
+    
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 1.2em;
+    background-color: #4717F6;
+    width: 50vw;
+    font-size: 1.1em;
+    border-radius: 100px 0 0 10px;
+}
+
+.warning {
+    position: relative;
+    color: red;
+    text-align: center;
+    display: none;
+    margin-top: 1.1em;
+}
+
